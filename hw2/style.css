@@ -20,15 +20,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*justify-content: center;*/
 }
 
 .fa-skull-crossbones, .fa-camera-retro, .fa-motorcycle, .fa-umbrella-beach {
     font-size: 40px;
     color: #2c0fb4;
     margin: 25px;
-    /*text-align: center;*/
-    /*display: block;*/
 }
 
 
@@ -40,8 +37,6 @@ h3 {
     text-align: center;
     font-family: Calibri, sans-serif;
     font-size: 90%;
-    /*text-align: center;*/
-    /*display: flex;*/
 }
 
 .bottom {
