@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(134, 134, 24, 0.44);
+}
+
+p {
+    text-align: center;
+    background-color: bisque;
+    color: rgba(12, 23, 59, 0.75);
+}
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+h2{
+    text-align: center;
+}
+
+img {
+text-align: center;
+}
+
+ul{
+    background-color: pink;
+}
