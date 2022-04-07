@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+.blocks {
+    height: 100vw;
+    width: 100vw;
+    background: #1fc1c1;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.box1, .box1-1, .box1-2 {
+    width: 400px;
+    height: 120px;
+    background: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-family: Candara, sans-serif;
+    display: flex;
+
+}
+
+.box2, .box2-1, .box2-2 {
+    width: 400px;
+    height: 120px;
+    background: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-family: Candara, sans-serif;
+    display: flex;
+}
+
+.fa-brush {
+    width: 70px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #46ba1e;
+
+}
+
+.opus {
+    width: 80%;
+}
+
+.title {
+    color: #353d0d;
+    font-size: 18px;
+    font-family: Bahnschrift, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text {
+    color: rgba(18, 45, 190, 0.75);
+    font-size: 15px;
+    /*align-items: center;*/
+}
+

@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.blocks {
+    width: 100vw;
+    height: 100vw;
+    background: silver;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    margin: 50px;
+    width: 300px;
+    height: 400px;
+    background: moccasin;
+    border: floralwhite solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-skull-crossbones, .fa-camera-retro, .fa-motorcycle, .fa-umbrella-beach {
+    font-size: 40px;
+    color: #2c0fb4;
+    margin: 25px;
+}
+
+
+h3 {
+    color: #46ba1e;
+}
+
+.txt {
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    font-size: 90%;
+}
+
+.bottom {
+    width: 200px;
+    height: 30px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txtp {
+    font-family: "Book Antiqua", sans-serif;
+    color: #d21e1e;
+    display: flex;
+    font-size: 15px;
+
+
+}
