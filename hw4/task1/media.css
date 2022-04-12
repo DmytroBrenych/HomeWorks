@@ -1,0 +1,13 @@
+@media screen and (min-width: 0px) and (max-width: 1368px) {
+    .wrap {
+        flex-direction: column;
+    }
+
+    .two-box {
+        width: 100%;
+    }
+
+    .h {
+        width: 100%;
+    }
+}

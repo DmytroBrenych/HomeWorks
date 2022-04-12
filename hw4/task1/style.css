@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background: silver;
+    width: 100%;
+    height: 700px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.a {
+    width: 100%;
+    height: 300px;
+    background: chocolate;
+}
+
+.two-box {
+    width: 75%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.bcd {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.b, .c, .d {
+    width: 33.3%;
+    height: 100%;
+    background: orchid;
+    margin: 1px;
+}
+
+.efg {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.e, .f, .g {
+    width: 33.3%;
+    height: 100%;
+    background: gold;
+    margin: 1px;
+}
+
+.h {
+    width: 25%;
+    height: 400px;
+    background: yellowgreen;
+}
