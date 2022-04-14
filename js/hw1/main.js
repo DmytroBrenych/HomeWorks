@@ -65,6 +65,31 @@ document.write(person);
 console.log(person);
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
+// let result = prompt("Please Enter");
+let fname = prompt('enter first name');
+let mname = prompt('enter middle name');
+let lname = prompt('enter last name');
+let person2 = fname + '' + mname + '' + lname;
+console.log(person2);
 
-let result = prompt("Please Enter");
-console.log(person[result]);
+// - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+//   let a = 100; let b = '100'; let c = true;
+
+let a1 = 100;
+let b2 = '100';
+let c3 = true;
+
+console.log(typeof a1);
+console.log(typeof b2);
+console.log(typeof c3);
+
+//- Створити масив об'єктів з назвою books з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
+
+let books = [
+    {name: 'Game of Thrones', count: 999, genre: 'history', author: 'Georgre Martin'},
+    {name: 'Harry Potter', count: 777, genre: 'fantasy', author: 'J.K. Rowling'},
+    {name: 'Peaky Blinders', count: 888, genre: 'history', author: 'xxx'}
+];
+
+console.log(books);
+
