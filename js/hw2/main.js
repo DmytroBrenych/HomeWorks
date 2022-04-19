@@ -3,7 +3,7 @@
 
 /*
 let x = 10;
-let a = prompt('Enter number 1, 0, -3');
+let a = +prompt('Enter number 1, 0, -3');
 if (a > 0 || a < 0) {
     console.log('True');
 } else {
@@ -14,7 +14,7 @@ if (a > 0 || a < 0) {
 // - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
 
-/*let time = prompt('Enter number from 0 to 59');
+/*let time = +prompt('Enter number from 0 to 59');
 
 if (time >= 0 && time <= 15) {
     console.log('1 quoter');
@@ -31,7 +31,7 @@ else {
 
 // - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
 
-/*let day = prompt('Enter day from 1 to 31');
+/*let day = +prompt('Enter day from 1 to 31');
 
 if (day > 0 && day < 11) {
     console.log('1 dekada');
