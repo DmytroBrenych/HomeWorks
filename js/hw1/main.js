@@ -56,11 +56,12 @@ let book2 = {
 
 //- Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
 
-let firstName = 'Dmytro ';
-let lastName = 'Brenych '
-let middleName = 'Andriyovych ';
+let firstName = 'Dmytro';
+let lastName = 'Brenych'
+let middleName = 'Andriyovych';
 
-let person = firstName + lastName + middleName;
+// let person = firstname + lastName + middleName;
+let person = `${firstName} ${lastName} ${middleName}`;
 document.write(person);
 console.log(person);
 
@@ -82,7 +83,7 @@ let c3 = true;
 console.log(typeof a1);
 console.log(typeof b2);
 console.log(typeof c3);
-
+console.log(kdjkd);
 //- Створити масив об'єктів з назвою books з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
 
 let books = [
