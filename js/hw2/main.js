@@ -86,5 +86,8 @@ else if (b > a) {
 else if (a === b) {
     console.log('Numbers are equal!!!');
 }
+else {
+    console.log('Invalid number');
+}
 //     Потрібно знайти та вивести максимальне число з тих двох .
 //     Також потрібно врахувати коли введені рівні числа.
