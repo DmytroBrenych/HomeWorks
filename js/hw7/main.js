@@ -67,13 +67,14 @@
 // // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
 // console.log(arr.sort((a, b) => a.order.length - b.order.length));
 
+
 // - Створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 // -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-
+//
 // function Car (model, producer, year, maxspeed, engine) {
 //     this.model = model;
 //     this.producer = producer;
@@ -176,7 +177,8 @@
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-class Popelushka {
+
+/*class Popelushka {
     constructor(name, age, tuf) {
         this.name = name;
         this.age = age;
@@ -200,14 +202,15 @@ arr = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10];
 // console.log(arr);
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 class prince {
-    constructor(name, age, leg) {
+    constructor(name, age, tufsize) {
         this.name = name;
         this.age = age;
-        this.leg = leg;
+        this.tufsize = tufsize;
     }
 }
+let newPrince = new prince('Vasya', 29,38);
 
-let arr1 = [];
+/!*let arr1 = [];
 let k1 = new prince('Ivan', 15, 33);
 let k2 = new prince('Igor', 16, 34);
 let k3 = new prince('Sergiy', 17, 35);
@@ -220,4 +223,19 @@ let k9 = new prince('Dmytro', 23, 41);
 let k10 = new prince('Joe', 24, 42);
 
 arr1 = [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10];
-// console.log(arr1);
+console.log(arr1);*!/
+
+let find = (arrpopel, arrprince) => {
+    for (const item of arrpopel) {
+        if(item.tuf === arrprince.tufsize) {
+            return `${item.name}`;
+        }
+    }
+}
+
+console.log(find(arr, newPrince));
+
+//     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+
+let finder = arr.find(value => value.tuf === newPrince.tufsize);
+console.log(finder);*/
