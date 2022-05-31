@@ -315,4 +315,4 @@ let card = [
 // console.log(card.filter(value => value.cardSuit === 'diamond'));
 
 // - всі трефи від 9 та більше
-console.log(card.filter(value => value.cardSuit === 'clubs' && value.value >= '9'));
+// console.log(card.filter(value => value.cardSuit === 'clubs' && value.value >= '9' || value.value === '10' && value.cardSuit === 'clubs' || value.value === 'Joker'));
